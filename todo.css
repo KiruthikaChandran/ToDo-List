@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0%;
+
+}
+.container {
+    max-width: 600px;
+    background-color: #F7EFE5;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 3px 4px 5px gray;
+    border-radius: 10px;
+
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+input{
+    width: 70%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #2E073F;
+    margin-right: 10px;
+    font-family: cursive;
+    
+}
+button{
+    background-color: #C8A1E0;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: cursive;
+}
+#To-DoList li{
+    display: flex;
+    justify-content: space-between;
+    
+}
